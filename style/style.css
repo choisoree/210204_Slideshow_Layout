@@ -56,7 +56,12 @@ div#wrap {
     border: 1px solid #f00;
 
     position: relative;
+    left: 0;
+    transition: all 3s;
+}
 
+#main #slideshow:hover {
+    left: -1200px;
 }
 
 #main #slideshow>ul>li {
@@ -65,11 +70,12 @@ div#wrap {
 
 }
 
+
 #main #slideshow>ul>li:nth-child(2) {
-    left:1200px;
+    left: 1200px;
 }
 #main #slideshow>ul>li:nth-child(3) {
-    left: 1200px;
+    left: 2400px;
 }
 
 
